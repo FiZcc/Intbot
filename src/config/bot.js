@@ -23,9 +23,9 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "Custom Status", // required by Discord API, not shown in the client
-        state: "Engineered by Araña.",     // this is what people actually see
-        type: 0,               // Custom
+        name: "Bizarre Buckaroos Server", // required by Discord API, not shown in the client
+        state: "Moderation and Management. Engineered by Arana.",     // this is what people actually see
+        type: 3,               // Custom
       },
     ],
   },
