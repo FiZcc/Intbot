@@ -25,7 +25,7 @@ export const botConfig = {
       {
         name: "Custom Status", // required by Discord API, not shown in the client
         state: "Engineered by Araña.",     // this is what people actually see
-        type: 4,               // Custom
+        type: 0,               // Custom
       },
     ],
   },
@@ -161,9 +161,9 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "Buck",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "Bucks",
       // Currency symbol shown in balances.
       symbol: "$",
     },
@@ -268,7 +268,7 @@ export const botConfig = {
 
     // Allowed winner count range.
     minimumWinners: 1,
-    maximumWinners: 10,
+    maximumWinners: 1000,
 
     // Allowed giveaway duration range in milliseconds.
     // 300000 = 5 minutes.
