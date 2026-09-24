@@ -183,7 +183,7 @@ async function handleSetup(interaction) {
         .setStyle(TextInputStyle.Short)
         .setPlaceholder('What experience do you have?')
         .setMaxLength(100)
-        .setRequired(false);
+        .setRequired(true);
 
     const q2Label = new LabelBuilder()
         .setLabel('Question 2 (required)')
@@ -193,7 +193,7 @@ async function handleSetup(interaction) {
         .setCustomId('app_question_3')
         .setStyle(TextInputStyle.Short)
         .setMaxLength(100)
-        .setRequired(false);
+        .setRequired(true);
 
     const q3Label = new LabelBuilder()
         .setLabel('Question 3 (Required)')
